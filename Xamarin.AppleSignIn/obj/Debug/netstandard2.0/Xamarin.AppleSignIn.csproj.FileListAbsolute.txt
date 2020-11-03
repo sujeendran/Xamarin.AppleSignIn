@@ -1,0 +1,9 @@
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.csprojAssemblyReference.cache
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.csproj.CoreCompileInputs.cache
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.AssemblyInfoInputs.cache
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.AssemblyInfo.cs
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\bin\Debug\netstandard2.0\Xamarin.AppleSignIn.deps.json
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\bin\Debug\netstandard2.0\Xamarin.AppleSignIn.dll
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\bin\Debug\netstandard2.0\Xamarin.AppleSignIn.pdb
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.dll
+D:\Programming\GitRepos\Xamarin.AppleSignIn\Xamarin.AppleSignIn\obj\Debug\netstandard2.0\Xamarin.AppleSignIn.pdb

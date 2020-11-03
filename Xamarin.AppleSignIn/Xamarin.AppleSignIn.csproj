@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>VistoureProductions</Company>
+    <Authors>Sujeendran Menon</Authors>
+    <Description>Simple library to help setup Apple sign in Xamarin Forms and Azure.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
