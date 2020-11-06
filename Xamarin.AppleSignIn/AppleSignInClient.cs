@@ -62,7 +62,7 @@ namespace Xamarin.AppleSignIn
 
             var qs = string.Empty;
             foreach (var i in p)
-                qs += WebUtility.UrlEncode(i.Key) + "=" + WebUtility.UrlEncode(i.Value) + "&";
+                qs += Uri.EscapeDataString(i.Key) + "=" + Uri.EscapeDataString(i.Value) + "&";
 
             return new Uri(AppleAuthorizationUrl + "?" + qs.TrimEnd('&'));
         }
