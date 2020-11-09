@@ -8,6 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
 namespace Xamarin.AppleSignIn
 {
@@ -97,6 +98,19 @@ namespace Xamarin.AppleSignIn
 
             string email = idToken.Payload.ContainsKey("email") ? idToken.Payload["email"]?.ToString() : null;
             string name = idToken.Payload.ContainsKey("name") ? idToken.Payload["name"]?.ToString() : null;
+
+            if(name == null)
+            {
+                try
+                {
+                    JObject obj = JObject.Parse(respData);
+                    name = obj["user"]["name"]["firstName"].ToString() ?? null;
+                }
+                catch(Exception ex)
+                {
+                    name = null;
+                }
+            }
 
             // Validate id token
             if (!idToken.Issuer.Equals(AppleJwtUrl))

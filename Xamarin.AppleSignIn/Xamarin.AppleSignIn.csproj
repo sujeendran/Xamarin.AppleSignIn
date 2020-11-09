@@ -9,7 +9,7 @@
     <PackageTags>xamarin,azure,apple,xamarin.forms,android,ios,uwp,windows</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/sujeendran/Xamarin.AppleSignIn</PackageProjectUrl>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
